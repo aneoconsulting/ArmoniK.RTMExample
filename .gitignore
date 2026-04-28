@@ -8,6 +8,7 @@ __pycache__/
 *.yaml
 *.yml
 
-# temporary outputs
-results/tmp/
-results/raw/
+# heavy SEM3D raw outputs
+templates/
+workdir/
+tmp_cases/
