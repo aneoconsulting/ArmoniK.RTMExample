@@ -93,19 +93,6 @@ In this experiment, the misfit is used primarily to **validate the pipeline**: w
 
 ---
 
-### Step 6E — Visualization
-
-**Script:** `step6e_sem3d_armonik_visualization.py`
-
-Generates the following plots to analyze misfit structure:
-
-| Plot | Insight |
-|---|---|
-| Top 10 closest station traces (bar plot) | Similarity between station responses |
-| Misfit distribution (histogram) | Spread of misfit values |
-| Sorted misfit curve | Presence of clusters or outliers |
-
----
 
 ## Key Insights
 
@@ -128,17 +115,3 @@ It does **not** yet launch new SEM3D simulations from ArmoniK tasks.
 
 ---
 
-## Next Steps
-
-The planned full inversion loop:
-
-```
-ArmoniK task
-→ generate / modify SEM3D input files
-→ launch SEM3D solver
-→ read generated traces
-→ compute misfit
-→ return objective value
-```
-
-Further down the road, surrogate models and adjoint methods can be introduced to accelerate optimization and reduce the need for exhaustive parameter scans.
