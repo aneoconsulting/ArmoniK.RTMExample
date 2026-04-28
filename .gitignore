@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# local ArmoniK config / secrets
+*.yaml
+*.yml
+
+# temporary outputs
+results/tmp/
+results/raw/
