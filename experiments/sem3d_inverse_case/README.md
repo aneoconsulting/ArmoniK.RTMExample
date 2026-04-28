@@ -86,18 +86,3 @@ Generates the following plots to analyze misfit structure:
 
 ---
 
-## Next Steps (Future Work)
-
-The current workflow uses pre-existing SEM3D outputs. The planned full integration is:
-
-```
-ArmoniK task → generate SEM3D case → run solver → read traces → compute misfit
-```
-
-This will complete the full closed-loop inverse workflow.
-
----
-
-## Summary
-
-This step bridges the gap between a toy inverse problem and a real HPC simulation workflow, demonstrating that ArmoniK can orchestrate computations on real simulation data.
