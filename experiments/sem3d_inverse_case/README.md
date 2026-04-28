@@ -63,20 +63,6 @@ Each HDF5 file contains multiple stations (`UU_0000`, `UU_0001`, ...), each with
 
 ---
 
-### Step 6E — Visualization
-
-**Script:** `step6e_sem3d_armonik_visualization.py`
-
-Generates the following plots to analyze misfit structure:
-
-| Plot | Insight |
-|---|---|
-| Top 10 closest station traces (bar plot) | Similarity between station responses |
-| Misfit distribution (histogram) | Spread of misfit values |
-| Sorted misfit curve | Presence of clusters or outliers |
-
----
-
 ## Key Insights
 
 - SEM3D outputs are distributed across multiple HDF5 files (parallel simulation output)
