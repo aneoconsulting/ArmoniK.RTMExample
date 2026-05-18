@@ -1,0 +1,14 @@
+-20.     # xmin
+20.      # xmax
+2.5      # xstep
+-20.     # ymin
+20.      # ymax
+2.5      # ystep
+0.       # zmax, ground surface
+3        # nb. of layers
+12.5 5   # layer 1: thickness and nb of steps
+15.0 6   # layer 2: thickness and nb of steps
+17.5 7   # layer 3: thickness and nb of steps
+1        # PMLs? 0: no, 1: yes
+0 1      # PMLs on top? at the bottom? (0: no, 1: yes)
+1        # 8 or 27 control points for elements (1 or 2)
