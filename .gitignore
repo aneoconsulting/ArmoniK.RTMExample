@@ -11,3 +11,19 @@ __pycache__/
 # temporary outputs
 results/tmp/
 results/raw/
+
+# SEM3D / Fathi benchmark generated outputs
+res/
+Rsem*/
+prot/
+traces/
+sem/
+*.h5
+*.xmf
+output.solver
+output.mesher
+fin_sem
+stat.log
+__pycache__/
+.venv/
+.ipynb_checkpoints/
